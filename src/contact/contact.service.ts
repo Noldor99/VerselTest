@@ -1,10 +1,10 @@
 import { ConflictException, Injectable, NotFoundException } from "@nestjs/common"
 import { InjectRepository } from "@nestjs/typeorm"
-import { Contact } from "src/entity/contact.entity"
 import { Repository } from "typeorm"
 import { CreateContactDto } from "./dto/create-contact.dto"
 import { QueryContactParamsDto } from "./dto/query-contact-params.dto"
 import { UpdateContactDto } from "./dto/update-contact.dto"
+import { Contact } from "./contact.entity"
 
 @Injectable()
 export class ContactService {
