@@ -4,7 +4,7 @@ import { Repository } from "typeorm"
 import { CreateContactDto } from "./dto/create-contact.dto"
 import { QueryContactParamsDto } from "./dto/query-contact-params.dto"
 import { UpdateContactDto } from "./dto/update-contact.dto"
-import { Contact } from "./contact.entity"
+import { Contact } from "src/contact/contact.entity"
 
 @Injectable()
 export class ContactService {
